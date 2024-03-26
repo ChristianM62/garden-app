@@ -16,15 +16,15 @@ export default function page() {
             className="rounded-md border-2 border-lime-700 p-2 pt-3 text-xl flex gap-4"
           >
             <FaRegCalendarCheck size={28} />
-            Yes
+            Back
           </Link>
-          {/* "select" button - pick crop harvested */}
+          {/* "select" button - to pick crop harvested */}
           <Link
             href="/pick-crop-harvested"
             className="rounded-md border-2 border-lime-700 p-2 pt-3 text-xl flex gap-4"
           >
             <FaRegCalendarAlt size={28} />
-            No
+            Select
           </Link>
         </div>
       </div>

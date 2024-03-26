@@ -10,17 +10,22 @@ export default function page() {
           Pick crop harvested:
         </div>
         <div className="grid grid-cols-2 gap-4 place-content-evenly">
+          {/* "back" button - return to home */}
           <Link
-            href="/pick-crop-harvested"
+            href="/"
             className="rounded-md border-2 border-lime-700 p-2 pt-3 text-xl flex gap-4"
           >
             <FaRegCalendarCheck size={28} />
-            Yes
+            Back
           </Link>
-          <button className="rounded-md border-2 border-lime-700 p-2 pt-3 text-xl flex gap-4">
+          {/* "select" button - to crop item count */}
+          <Link
+            href="/crop-item-count"
+            className="rounded-md border-2 border-lime-700 p-2 pt-3 text-xl flex gap-4"
+          >
             <FaRegCalendarAlt size={28} />
-            No
-          </button>
+            Select
+          </Link>
         </div>
       </div>
     </div>
